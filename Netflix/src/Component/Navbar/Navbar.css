@@ -59,3 +59,8 @@ p {
     display: none;
   }
 }
+@media screen and (max-width: 854px) {
+  .nav-link {
+    display: none;
+  }
+}
