@@ -1,0 +1,43 @@
+.container1 {
+  background-image: url(../../assets/Image/backgroundimg.webp);
+  height: 130vh;
+}
+.contant {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+.movie-img {
+  height: 150px;
+}
+.text {
+  margin-top: 10px;
+  color: white;
+}
+@media screen and (max-width: 1300px) {
+  .container1 {
+    background-repeat: no-repeat;
+  }
+  .contant {
+    position: absolute;
+    top: 80px;
+  }
+  .text {
+    margin-top: 0;
+  }
+  .movie-img {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .text {
+    display: none;
+  }
+  .para {
+    display: none;
+  }
+  .movie-img {
+    height: 150px;
+    width: 250px;
+  }
+}

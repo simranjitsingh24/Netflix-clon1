@@ -1,0 +1,32 @@
+.list-background {
+  background-color: black;
+  overflow: hidden;
+}
+.heading {
+  color: white;
+}
+.movies-list {
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+}
+.img-movie {
+  border-radius: 30px;
+  transition: transform 0.2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.img-movie:hover {
+  transform: scale(1.2);
+  border-radius: 0px;
+}
+@media screen and (max-width: 450px) {
+  .movies-list {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .img-movie {
+    width: 350px;
+  }
+}
