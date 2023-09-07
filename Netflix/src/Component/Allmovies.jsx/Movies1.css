@@ -21,6 +21,9 @@
   transform: scale(1.2);
   border-radius: 0px;
 }
+.popup {
+  color: white;
+}
 @media screen and (max-width: 450px) {
   .movies-list {
     flex-direction: column;

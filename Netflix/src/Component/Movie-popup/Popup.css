@@ -1,0 +1,39 @@
+.container-popup {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(46, 46, 46);
+}
+.main-div1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+.color {
+  color: green;
+}
+.btn-popup {
+  margin-top: 10px;
+  font-size: 25px;
+}
+/* .left {
+  padding: 20px;
+}
+.right {
+  padding: 10px;
+} */
+span {
+  color: darkgray;
+}
+@media screen and (max-width: 600px) {
+  .main-div1 {
+    flex-direction: column;
+  }
+  .right {
+    margin-top: 15px;
+  }
+  .btn-popup {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+}
