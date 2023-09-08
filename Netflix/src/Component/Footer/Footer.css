@@ -20,3 +20,14 @@
 .first-row {
   color: rgb(182, 177, 177);
 }
+@media screen and (max-width: 380px) {
+  .main-div {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .icon-foot {
+    padding: 25px;
+  }
+}

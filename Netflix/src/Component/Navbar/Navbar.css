@@ -25,7 +25,7 @@
 }
 
 .img-logo {
-  height: 40px;
+  width: 100px;
 }
 .link {
   text-decoration: none;
@@ -42,20 +42,29 @@ p {
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 10px;
+
+  flex-wrap: wrap;
 }
-.img-logo-bell {
-  height: 30px;
-}
+
 .img-logo-serch {
-  height: 30px;
+  width: 20px;
 }
 .para {
   margin-top: 15px;
   font-size: 19px;
 }
-@media screen and (max-width: 690px) {
+
+@media screen and (max-width: 850px) {
   .nav-link {
     display: none;
   }
 }
+/* @media screen and (max-width: 380px) {
+  .img-logo {
+    height: 20px;
+  }
+  .nav-right {
+    gap: 0px;
+    margin: 0 auto;
+  }
+} */
